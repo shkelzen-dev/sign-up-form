@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+   
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+</head>
+<body>
+    <div id="logo-side">
+        <div id="logo">
+            <img src="odin-lined.png" alt="odin logo" id="odin-logo">
+            ODIN</div>
+        <footer>Photo by <a class="aa"
+             href="https://unsplash.com/es/@haliewestphoto?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Halie West</a> on 
+             <a class="aa" 
+             href="https://unsplash.com/photos/25xggax4bSA?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+        </footer>
+    </div>
+    <div id="form-side">
+        <div id="text">
+        This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up <i>now</i> to get started.<br><br>
+        You <i>know</i> you want to.</div>
+
+        <div id="form">
+            <p>Let's do this!</p>
+            
+            <form>
+               <div id="first-col">
+                <div>
+                <label  for="name">FIRST NAME</label>
+                <input type="text" id="name" >
+                </div>
+                <div>
+                <label for="email">EMAIL</label>
+                <input type="email" id="email" >
+                </div>
+                <div id="passDiv">
+                <label for="pass">PASSWORD</label>
+                <input type="password" id="pass" onkeyup="check();" minlength="8" maxlength="32" 
+                pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" 
+                title="Must contain at least one number and one uppercase and lowercase letter,
+                 and at least 8 or more characters" required>
+              </div>
+              
+              
+              </div>
+              <p id="passW"></p>
+
+              <div id="sec-col">
+                <div>
+                <label  for="surname">LAST NAME</label>
+                <input type="text" id="surname" >
+                </div>
+                <div>
+                <label  for="phone">PHONE NUMBER</label>
+                <input type="tel" id="phone">
+                </div>
+                <div>
+                <label  for="cpass">CONFIRM PASSWORD</label>
+                <input type="password"  id="cpass" minlength="8" maxlength="32" onkeyup="check();" required>
+                </div>
+
+              </div>
+
+              <button id="submit-btn" type="submit">Create Account</button>
+            </form>
+            
+        </div>
+        <p id="endTxt">Already have an account? <a id="a1" href="#">Log In</a></p>
+    </div>
+    <script src="js.js" ></script>
+    
+</body>
+</html>

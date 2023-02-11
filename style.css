@@ -1,0 +1,180 @@
+html,body{
+    height: auto;
+    width: auto;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(229, 228, 226 , 0.1) ;
+}
+
+html{
+    height: auto;
+    width: auto;
+    background-color: rgba(229, 228, 226 , 0.1) ;
+}
+
+body{
+    width: auto;
+    display: flex ;
+    justify-content: center;
+    
+}
+
+#logo-side{
+    background-image: url('halie-west-25xggax4bSA-unsplash.jpg');
+    background-size: 110vh;
+    background-repeat: no-repeat;
+    height: 155vh;
+    width: 85vw;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+footer{
+    margin-top: auto;
+    margin-left: 20%;
+    color: white;
+
+}
+
+#form-side{
+    height: 100%;
+    width: auto;
+}
+
+
+#logo{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.4);
+    height: 20vh;
+    margin-top: 25vh;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    font-family: NorseBold;
+    font-size: 15vh;
+}
+
+#odin-logo{
+    height: 80%;
+}
+
+@font-face {
+    font-family: "NorseBold";
+    src: url('Norse-Bold.otf');
+}
+
+#text{
+    margin-top: 20vh;
+    margin-left: 3vw;
+    margin-right: 10vw;
+    font-size: 24px;
+    font-weight: 600;
+    background-color: rgba(229, 228, 226 , 0.1) ;
+}
+
+#form{
+    background-color: white;
+    margin-top: 10vh;
+    margin-left: 0vw;
+    padding-left: 3vw;
+    padding-top: 1vh;
+    padding-bottom: 20px;
+    width: auto;
+    font-family: 'Courier New', Courier, monospace ;
+    height: 45vh;
+    box-shadow: 5px 5px 8px #D3D3D3;
+
+}
+
+#form p{
+    font-size: 25px;
+    font-weight: 600;
+}
+
+label{
+    display: block;
+    font-size: 13px;
+    font-family: monospace ;
+}
+
+form{
+    width: 100%;
+    height: 100%;
+    display: flex;    
+}
+
+#sec-col{
+    height: 70%;
+    margin-left: 10vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#first-col{
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+input{
+    outline: none;
+}
+input{
+    border: 1px solid #E5E7EB;
+    border-radius: 4px;
+    width: 40vh;
+    height: 4vh;
+}
+
+input:focus{
+    border: 1px solid blue;
+}
+
+input:invalid{
+    border: 1px solid red;
+}
+
+#passW{
+    position: absolute;
+    padding-top: 30vh;
+}
+
+button{
+    margin-top: -20px;
+    height: 8vh;
+    width: 17vw;
+    border-radius: 8px;
+    border: 1px solid #596D48;
+    background-color: #596D48;
+    color: white;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+#a1{
+    color: #596D48;
+    text-decoration: none;
+}
+
+#endTxt{
+    font-weight:bold;
+    font-size: 18px;
+    margin-top:20vh;
+    margin-left: 6vh;
+}
+
+.aa{
+    color: white;
+}
+
+#submit-btn{
+    position: absolute;
+    margin-top: 42vh;
+}
+
+#submit-btn:hover{
+    cursor: pointer;
+}
